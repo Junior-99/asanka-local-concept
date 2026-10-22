@@ -20,7 +20,7 @@ Potential guests must piece together dish explanations, locations and contact de
 
 The local planner uses browser localStorage. The separate shared concept inbox uses authenticated Supabase access. No real business transactions or automatic business notifications occur. Do not store confidential information. Back up using export. Counts use actual saved records and start at zero. A saved plan is not a confirmed order or reservation.
 
-Before official business use: obtain business approval and asset rights, confirm current details, replace illustrative content, add authenticated backend and notifications, configure owner access, and verify operational policies.
+Before official business use: obtain business approval and asset rights, confirm current details, replace illustrative content, configure operational notifications, configure owner access, and verify operational policies.
 
 ## Research and media
 
@@ -50,3 +50,10 @@ The public planner can optionally send a copy to the creator’s demonstration i
 Creator onboarding: open Dashboard, choose Register, create a password yourself, verify the account email, then sign in. The specifically approved creator email has been allowlisted privately. Other accounts receive no access by registering. The database isolation checks passed, but the creator’s email/password onboarding cannot be completed or verified until the user performs it. All sites remain uncommissioned concepts pending owner approval and operational handover.
 
 Schema and rollback-based security tests are retained in the main workspace backend folder. The backend project was quoted at $0/month; no paid plan was selected. Usage limits and provider policies still apply.
+
+
+## Multi-page redesign — 22 October 2026
+
+Seven pages: home, food guide, gallery, story, gathering planner, visit and workspace. Sunny yellow/orange playful poster design, genuine groundnut-soup hero, nine public Facebook images including larger originals, rotating illustrative asanka bowl. Shortlists persist between pages.
+
+Direct HTML entrypoints are included in Vite’s production build, supporting direct navigation on static hosting. Source credits and image dimensions are retained in src/gallery.json. Public source images may include business marketing renders; publication by the business does not independently verify completed work. The workspace route offers both local drafts and the authenticated shared creator inbox. Creator email/password onboarding still requires the user to register, verify email and sign in.

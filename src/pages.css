@@ -6,3 +6,4 @@
 @media(prefers-reduced-motion:reduce){.social-gallery img,.asanka .hero-copy h1,.asanka .hero-visual{transform:none!important}.home-links>a>img,.social-gallery img{transition:none!important}}
 
 .asanka h1 em,.asanka h2 em,.chez h1 em,.chez h2 em{font-family:inherit;font-style:normal}.chez .hero-visual>img{border-radius:0}.chez header nav{color:#eee7d4}.asanka .hero-grid{padding-top:20px}
+@media(max-width:580px){.asanka .hero-copy h1{font-size:66px}.asanka .hero-copy h1 em{font-size:.88em;letter-spacing:-.05em}}
