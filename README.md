@@ -18,7 +18,7 @@ Potential guests must piece together dish explanations, locations and contact de
 
 ## Dashboard limits
 
-Browser localStorage only. No secure shared backend, accounts, team access, notifications or real business transactions. Do not store confidential information. Back up using export. Counts use actual saved records and start at zero. A saved plan is not a confirmed order or reservation.
+The local planner uses browser localStorage. The separate shared concept inbox uses authenticated Supabase access. No real business transactions or automatic business notifications occur. Do not store confidential information. Back up using export. Counts use actual saved records and start at zero. A saved plan is not a confirmed order or reservation.
 
 Before official business use: obtain business approval and asset rights, confirm current details, replace illustrative content, add authenticated backend and notifications, configure owner access, and verify operational policies.
 
@@ -42,3 +42,11 @@ All generated imagery and procedural 3D models are illustrative, not evidence of
 ## Checks
 
 Production build and dependency audit. Browser QA results and deployment URLs are recorded in the series content document. A passing build does not establish production backend readiness.
+
+## Shared concept inbox
+
+The public planner can optionally send a copy to the creator’s demonstration inbox after an explicit consent checkbox. This does not send anything to the real business. A shared Supabase backend provides bounded, validated submissions; anonymous users cannot read private records. Approved verified accounts can read their assigned sites, update statuses and internal notes, search, paginate and export records. Database policies enforce site membership; browser filtering alone is not trusted. The frontend includes only a publishable key. No service-role key is present.
+
+Creator onboarding: open Dashboard, choose Register, create a password yourself, verify the account email, then sign in. The specifically approved creator email has been allowlisted privately. Other accounts receive no access by registering. The database isolation checks passed, but the creator’s email/password onboarding cannot be completed or verified until the user performs it. All sites remain uncommissioned concepts pending owner approval and operational handover.
+
+Schema and rollback-based security tests are retained in the main workspace backend folder. The backend project was quoted at $0/month; no paid plan was selected. Usage limits and provider policies still apply.
